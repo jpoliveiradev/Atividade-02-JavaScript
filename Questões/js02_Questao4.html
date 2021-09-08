@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html>		
+		<head>  	 
+			<title>js04_Minha Idade.htm</title>  
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<meta charset="utf-8"/>  
+		</head>  
+		<body>
+			<h2>Calculando e Mostrando Minha Idade</h2>
+			<p>Qual o ano que você nasceu?</p>
+			<input type="text" id="idade" name="minhaIdade" placeholder="Insira seu ano de nascimento"><br><br><br>
+			<button onclick="idade()">Click Aqui</button>
+			<p>A Sua Idade é:</p> 
+			<p id="resultado">Aqui Mostrará qual é a sua idade</p>
 
+				<script language="Javascript">  
+
+							/* Objetivo:  Desenvolver um programa em JavaScript que mostre na tela minha idade de acordo com o ano de nascimento.
+
+							/* Definicao das variaveis */
+						  function idade() {
+							var anoDeNascimento;
+							var calculo;
+
+							/* Processamentos de Dados */
+
+							anoDeNascimento = document.getElementById("idade").value;
+							calculo = 2021 - anoDeNascimento;
+
+							/* Saída de Dados */
+
+							document.getElementById("resultado").innerHTML = calculo + (" anos"); // AQUI MOSTRARÁ QUAL É MINHA IDADE
+						}
+							
+				</script>  
+		</body>
+</html>
