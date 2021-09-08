@@ -1,6 +1,6 @@
 # Atividade 02 com JavaScript
 
-Repositório com Segunda Ativide Escolar Com 5 questões de JavaScript
+Repositório com Segunda Atividade Escolar com 5 questões de JavaScript
 
 Crie os seguintes códigos em JavaScript utilizando os conteúdos aprendidos até agora.
 Utilize Objeto, Método, Formulário, Funções.
