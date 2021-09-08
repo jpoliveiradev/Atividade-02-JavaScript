@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>		
-		<head>  	 
-			<title>js01_multiplicar.htm - multiplicação</title>  
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-			<meta charset="utf-8"/>  
-		</head>  
-		<body>   
-			<h3>Calculando a Área de um Retângulo</h3>
-				<script language="Javascript">  
-						<!--  
-						/* Objetivo:  Desenvolver um programa em JavaScript que calcula e mostra o resultado na tela a área de um retângulo sabedo-se que: área = comprimento * altura
+	<head>  	 
+		<title>js01_multiplicar.htm - multiplicação</title>  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8"/>  
+	</head>  
+	<body>   
+	<h3>Calculando a Área de um Retângulo</h3>
+	<script language="Javascript">  
+		/* Objetivo:  Desenvolver um programa em JavaScript que calcula e mostra o resultado na tela a área de um retângulo sabedo-se que: área = comprimento * altura */
+		
+		/* Definicao das variaveis */
+		var comprimento;
+		var altura;
+		var resultado;
 
-						/* Definicao das variaveis */
-						var comprimento;
-						var altura;
-						var resultado;
+		/* Entrada de Dados */
 
-						/* Entrada de Dados */
+		comprimento = window.prompt("Informe qual o comprimento do cubo: " , "Digite aqui");
+		altura = window.prompt("Informe qual a altura do cubo: " , "Digite aqui");
 
-						comprimento = window.prompt("Informe qual o comprimento do cubo: " , "Digite aqui");
-						altura = window.prompt("Informe qual a altura do cubo: " , "Digite aqui");
+		/* Processamentos de Dados */
 
-						/* Processamentos de Dados */
+		resultado = parseInt(comprimento) * parseInt(altura);
 
-						resultado = parseInt(comprimento) * parseInt(altura);
+		/* Saída de Dados */
 
-						/* Saída de Dados */
+		document.write("A área do retângulo é: " + resultado); // AQUI MOSTRARÁ QUAL É A ÁREA DO RETÂNGULO
 
-						document.write("A área do retângulo é: " + resultado); // AQUI MOSTRARÁ QUAL É A ÁREA DO RETÂNGULO
-
-
-				</script>  
-		</body>  
+	</script>  
+	</body>  
 </html>
